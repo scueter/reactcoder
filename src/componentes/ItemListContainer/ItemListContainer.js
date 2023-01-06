@@ -1,9 +1,10 @@
 import { ListGroup } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
+import ItemCount from "../ItemCount/ItemCount";
 import './ItemListContainer.scss'
 
-export const ItemListContainer = ( {cat, itemName, description }) => {
+export const ItemListContainer = ( {cat, itemName, description, stock }) => {
   return (
     <>
     
@@ -17,6 +18,7 @@ export const ItemListContainer = ( {cat, itemName, description }) => {
                 <Card.Text>
                 {description}
                 </Card.Text>
+                <ItemCount stock={stock}/>
                 <Button variant="primary">Añadir al carrito</Button>
               </Card.Body>
             </Card>

@@ -17,11 +17,13 @@ function App() {
     cartCount: 1
   }
 
+  const iphone = 5
+
   return (
     <div>
       <Barnav {...nav} />
 
-      <ItemListContainer cat="Celulares" itemName="iPhone 14" description="Ultimo en guaracha"/>
+      <ItemListContainer cat="Celulares" itemName="iPhone 14" description="Ultimo en guaracha" stock={iphone}/>
     </div>
   );
 }
