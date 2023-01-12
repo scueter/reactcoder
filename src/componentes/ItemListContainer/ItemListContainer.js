@@ -1,30 +1,34 @@
-import { ListGroup } from "react-bootstrap";
-import { Card } from "react-bootstrap";
-import { Button } from "react-bootstrap";
-import ItemCount from "../ItemCount/ItemCount";
-import './ItemListContainer.scss'
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import ItemList from "../ItemList.js/ItemList";
+import { promiseForAll } from "../Promesa/Promesa";
+import "./ItemListContainer.scss";
 
-export const ItemListContainer = ( {cat, itemName, description, stock }) => {
+const ItemListContainer = () => {
+  const [productos, setProductos] = useState([]);
+  const { categoryId, busqueda } = useParams();
+
+  useEffect(() => {
+    promiseForAll()
+      .then((res) => {
+        if (busqueda) {
+            setProductos(res.filter((prod) => prod.name.includes(busqueda)));
+        } else if (categoryId) {
+          setProductos(res.filter((prod) => prod.category === categoryId));
+        } else {
+          setProductos(res);
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, [categoryId, busqueda]);
+
   return (
-    <>
-    
-      {["lg"].map((breakpoint) => (
-        <ListGroup key={breakpoint} horizontal={breakpoint} className="my-5 d-flex center list">
-          <ListGroup.Item>
-            <Card className="text-center">
-              <Card.Header>{cat}</Card.Header>
-              <Card.Body>
-                <Card.Title>{itemName}</Card.Title>
-                <Card.Text>
-                {description}
-                </Card.Text>
-                <ItemCount stock={stock}/>
-                <Button variant="primary">Añadir al carrito</Button>
-              </Card.Body>
-            </Card>
-          </ListGroup.Item>
-        </ListGroup>
-      ))}
-    </>
+    <div>
+      <ItemList productos={productos} />
+    </div>
   );
 };
+
+export default ItemListContainer;

@@ -1,7 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { CartWidget } from './componentes/CartWidget/CartWidget';
-import { ItemListContainer } from './componentes/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer';
+import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
 import { Barnav } from "./componentes/Navbar/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {
@@ -10,21 +12,30 @@ function App() {
     mode: "light",
     variant: "",
     brand: "Shopping Center",
-    cat1: "Electrodomesticos",
-    cat2: "Videojuegos",
-    cat3: "Celulares",
     cart: <CartWidget/>,
     cartCount: 1
   }
 
-  const iphone = 5
 
   return (
-    <div>
+    
+    
+    
+    <BrowserRouter>
+
       <Barnav {...nav} />
 
-      <ItemListContainer cat="Celulares" itemName="iPhone 14" description="Ultimo en guaracha" stock={iphone}/>
-    </div>
+      <Routes>
+
+        <Route path='/' element={<ItemListContainer/>}/>
+        <Route path='/categorias/:categoryId' element={<ItemListContainer/>}/>
+        <Route path="/search/:busqueda" element={<ItemListContainer/>}/>
+        <Route path="/detail/:itemId" element={<ItemDetailContainer/>}/>
+        <Route path='/detail' element={<ItemDetailContainer itemId={1}/>}/>
+
+      </Routes>
+
+    </BrowserRouter>
   );
 }
 
