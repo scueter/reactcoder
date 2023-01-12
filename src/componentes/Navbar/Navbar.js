@@ -14,7 +14,7 @@ export const Barnav = ({
   variant,
   brand,
   cart,
-  cartCount,
+  cartCount
 }) => {
 
   const buscar = useNavigate()

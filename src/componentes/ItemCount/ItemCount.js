@@ -6,15 +6,10 @@ const ItemCount = (stock) => {
 
     const [counter, setCounter] = useState(1)
     const add = () => {
-        if (counter < Number(stock)) {
+        if (counter < stock.stock) {
             setCounter( counter + 1 )            
         }
     }
-
-    console.log(stock.toNumber);
-    console.log (Number(stock));
-    console.log (stock);
-
 
 
     const remove = () => {

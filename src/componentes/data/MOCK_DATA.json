@@ -6,7 +6,7 @@
     "image": "http://dummyimage.com/103x100.png/dddddd/000000",
     "price": 11967,
     "stock": 20,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "image": "http://dummyimage.com/198x100.png/cc0000/ffffff",
     "price": 6622,
     "stock": 39,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "image": "http://dummyimage.com/233x100.png/cc0000/ffffff",
     "price": 5680,
     "stock": 20,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "image": "http://dummyimage.com/184x100.png/5fa2dd/ffffff",
     "price": 18951,
     "stock": 25,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "image": "http://dummyimage.com/248x100.png/dddddd/000000",
     "price": 9927,
     "stock": 83,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "image": "http://dummyimage.com/121x100.png/ff4444/ffffff",
     "price": 6615,
     "stock": 74,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "image": "http://dummyimage.com/127x100.png/cc0000/ffffff",
     "price": 11990,
     "stock": 42,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "image": "http://dummyimage.com/220x100.png/dddddd/000000",
     "price": 1047,
     "stock": 29,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "image": "http://dummyimage.com/178x100.png/cc0000/ffffff",
     "price": 11564,
     "stock": 42,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "image": "http://dummyimage.com/235x100.png/cc0000/ffffff",
     "price": 17642,
     "stock": 9,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "image": "http://dummyimage.com/226x100.png/ff4444/ffffff",
     "price": 2335,
     "stock": 41,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "image": "http://dummyimage.com/231x100.png/ff4444/ffffff",
     "price": 19796,
     "stock": 21,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 13,
@@ -114,7 +114,7 @@
     "image": "http://dummyimage.com/165x100.png/5fa2dd/ffffff",
     "price": 12361,
     "stock": 96,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
     "image": "http://dummyimage.com/173x100.png/ff4444/ffffff",
     "price": 19353,
     "stock": 64,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 15,
@@ -132,7 +132,7 @@
     "image": "http://dummyimage.com/196x100.png/cc0000/ffffff",
     "price": 14687,
     "stock": 26,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 16,
@@ -141,7 +141,7 @@
     "image": "http://dummyimage.com/143x100.png/ff4444/ffffff",
     "price": 15048,
     "stock": 39,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 17,
@@ -150,7 +150,7 @@
     "image": "http://dummyimage.com/242x100.png/5fa2dd/ffffff",
     "price": 220,
     "stock": 64,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
     "image": "http://dummyimage.com/212x100.png/dddddd/000000",
     "price": 19890,
     "stock": 43,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 19,
@@ -168,7 +168,7 @@
     "image": "http://dummyimage.com/152x100.png/5fa2dd/ffffff",
     "price": 4712,
     "stock": 74,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 20,
@@ -177,7 +177,7 @@
     "image": "http://dummyimage.com/116x100.png/5fa2dd/ffffff",
     "price": 4120,
     "stock": 11,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 21,
@@ -186,7 +186,7 @@
     "image": "http://dummyimage.com/225x100.png/5fa2dd/ffffff",
     "price": 14194,
     "stock": 35,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 22,
@@ -195,7 +195,7 @@
     "image": "http://dummyimage.com/188x100.png/cc0000/ffffff",
     "price": 4956,
     "stock": 12,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 23,
@@ -204,7 +204,7 @@
     "image": "http://dummyimage.com/184x100.png/ff4444/ffffff",
     "price": 16631,
     "stock": 61,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 24,
@@ -213,7 +213,7 @@
     "image": "http://dummyimage.com/210x100.png/ff4444/ffffff",
     "price": 15851,
     "stock": 70,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 25,
@@ -222,7 +222,7 @@
     "image": "http://dummyimage.com/148x100.png/5fa2dd/ffffff",
     "price": 13791,
     "stock": 15,
-    "category": "verduleria"
+    "category": "celulares"
   },
   {
     "id": 26,
@@ -231,7 +231,7 @@
     "image": "http://dummyimage.com/112x100.png/dddddd/000000",
     "price": 13971,
     "stock": 36,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 27,
@@ -240,7 +240,7 @@
     "image": "http://dummyimage.com/250x100.png/cc0000/ffffff",
     "price": 355,
     "stock": 86,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 28,
@@ -249,7 +249,7 @@
     "image": "http://dummyimage.com/241x100.png/dddddd/000000",
     "price": 6932,
     "stock": 46,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 29,
@@ -258,7 +258,7 @@
     "image": "http://dummyimage.com/207x100.png/5fa2dd/ffffff",
     "price": 18907,
     "stock": 94,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 30,
@@ -267,7 +267,7 @@
     "image": "http://dummyimage.com/243x100.png/dddddd/000000",
     "price": 14348,
     "stock": 28,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 31,
@@ -276,7 +276,7 @@
     "image": "http://dummyimage.com/236x100.png/dddddd/000000",
     "price": 14118,
     "stock": 54,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 32,
@@ -285,7 +285,7 @@
     "image": "http://dummyimage.com/130x100.png/5fa2dd/ffffff",
     "price": 8074,
     "stock": 39,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 33,
@@ -294,7 +294,7 @@
     "image": "http://dummyimage.com/177x100.png/5fa2dd/ffffff",
     "price": 4696,
     "stock": 96,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 34,
@@ -303,7 +303,7 @@
     "image": "http://dummyimage.com/177x100.png/dddddd/000000",
     "price": 6144,
     "stock": 1,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 35,
@@ -312,7 +312,7 @@
     "image": "http://dummyimage.com/193x100.png/cc0000/ffffff",
     "price": 8177,
     "stock": 57,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 36,
@@ -321,7 +321,7 @@
     "image": "http://dummyimage.com/117x100.png/dddddd/000000",
     "price": 15533,
     "stock": 84,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 37,
@@ -330,7 +330,7 @@
     "image": "http://dummyimage.com/108x100.png/5fa2dd/ffffff",
     "price": 4610,
     "stock": 29,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 38,
@@ -339,7 +339,7 @@
     "image": "http://dummyimage.com/149x100.png/ff4444/ffffff",
     "price": 17148,
     "stock": 88,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 39,
@@ -348,7 +348,7 @@
     "image": "http://dummyimage.com/175x100.png/cc0000/ffffff",
     "price": 14592,
     "stock": 46,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 40,
@@ -357,7 +357,7 @@
     "image": "http://dummyimage.com/150x100.png/ff4444/ffffff",
     "price": 9995,
     "stock": 46,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 41,
@@ -366,7 +366,7 @@
     "image": "http://dummyimage.com/159x100.png/ff4444/ffffff",
     "price": 11942,
     "stock": 87,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 42,
@@ -375,7 +375,7 @@
     "image": "http://dummyimage.com/162x100.png/dddddd/000000",
     "price": 17095,
     "stock": 71,
-    "category": "verduleria"
+    "category": "celulares"
   },
   {
     "id": 43,
@@ -384,7 +384,7 @@
     "image": "http://dummyimage.com/123x100.png/dddddd/000000",
     "price": 7376,
     "stock": 48,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 44,
@@ -393,7 +393,7 @@
     "image": "http://dummyimage.com/199x100.png/5fa2dd/ffffff",
     "price": 10367,
     "stock": 76,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 45,
@@ -402,7 +402,7 @@
     "image": "http://dummyimage.com/239x100.png/dddddd/000000",
     "price": 12312,
     "stock": 34,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 46,
@@ -411,7 +411,7 @@
     "image": "http://dummyimage.com/246x100.png/dddddd/000000",
     "price": 12593,
     "stock": 29,
-    "category": "verduleria"
+    "category": "celulares"
   },
   {
     "id": 47,
@@ -420,7 +420,7 @@
     "image": "http://dummyimage.com/182x100.png/dddddd/000000",
     "price": 4821,
     "stock": 68,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 48,
@@ -429,7 +429,7 @@
     "image": "http://dummyimage.com/194x100.png/dddddd/000000",
     "price": 6633,
     "stock": 89,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 49,
@@ -438,7 +438,7 @@
     "image": "http://dummyimage.com/160x100.png/dddddd/000000",
     "price": 7062,
     "stock": 93,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 50,
@@ -447,7 +447,7 @@
     "image": "http://dummyimage.com/207x100.png/ff4444/ffffff",
     "price": 2540,
     "stock": 36,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 51,
@@ -456,7 +456,7 @@
     "image": "http://dummyimage.com/107x100.png/ff4444/ffffff",
     "price": 16483,
     "stock": 72,
-    "category": "limpieza"
+    "category": "videojuegos"
   },
   {
     "id": 52,
@@ -465,7 +465,7 @@
     "image": "http://dummyimage.com/116x100.png/dddddd/000000",
     "price": 11164,
     "stock": 48,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 53,
@@ -474,7 +474,7 @@
     "image": "http://dummyimage.com/206x100.png/dddddd/000000",
     "price": 18005,
     "stock": 91,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 54,
@@ -483,7 +483,7 @@
     "image": "http://dummyimage.com/162x100.png/dddddd/000000",
     "price": 18312,
     "stock": 17,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 55,
@@ -492,7 +492,7 @@
     "image": "http://dummyimage.com/112x100.png/dddddd/000000",
     "price": 10507,
     "stock": 68,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 56,
@@ -501,7 +501,7 @@
     "image": "http://dummyimage.com/125x100.png/cc0000/ffffff",
     "price": 15565,
     "stock": 80,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 57,
@@ -510,7 +510,7 @@
     "image": "http://dummyimage.com/169x100.png/cc0000/ffffff",
     "price": 4904,
     "stock": 45,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 58,
@@ -519,7 +519,7 @@
     "image": "http://dummyimage.com/133x100.png/ff4444/ffffff",
     "price": 12877,
     "stock": 72,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 59,
@@ -528,7 +528,7 @@
     "image": "http://dummyimage.com/175x100.png/ff4444/ffffff",
     "price": 19958,
     "stock": 30,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 60,
@@ -537,7 +537,7 @@
     "image": "http://dummyimage.com/105x100.png/cc0000/ffffff",
     "price": 11676,
     "stock": 67,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 61,
@@ -546,7 +546,7 @@
     "image": "http://dummyimage.com/111x100.png/cc0000/ffffff",
     "price": 3411,
     "stock": 85,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 62,
@@ -555,7 +555,7 @@
     "image": "http://dummyimage.com/139x100.png/5fa2dd/ffffff",
     "price": 16178,
     "stock": 57,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 63,
@@ -564,7 +564,7 @@
     "image": "http://dummyimage.com/194x100.png/ff4444/ffffff",
     "price": 3315,
     "stock": 80,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 64,
@@ -573,7 +573,7 @@
     "image": "http://dummyimage.com/198x100.png/cc0000/ffffff",
     "price": 16752,
     "stock": 41,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 65,
@@ -582,7 +582,7 @@
     "image": "http://dummyimage.com/181x100.png/cc0000/ffffff",
     "price": 9024,
     "stock": 5,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 66,
@@ -591,7 +591,7 @@
     "image": "http://dummyimage.com/178x100.png/ff4444/ffffff",
     "price": 12352,
     "stock": 54,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 67,
@@ -600,7 +600,7 @@
     "image": "http://dummyimage.com/222x100.png/cc0000/ffffff",
     "price": 7969,
     "stock": 20,
-    "category": "limpieza"
+    "category": "videojuegos"
   },
   {
     "id": 68,
@@ -609,7 +609,7 @@
     "image": "http://dummyimage.com/233x100.png/cc0000/ffffff",
     "price": 13553,
     "stock": 71,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 69,
@@ -618,7 +618,7 @@
     "image": "http://dummyimage.com/207x100.png/ff4444/ffffff",
     "price": 6447,
     "stock": 15,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 70,
@@ -627,7 +627,7 @@
     "image": "http://dummyimage.com/193x100.png/dddddd/000000",
     "price": 15145,
     "stock": 93,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 71,
@@ -636,7 +636,7 @@
     "image": "http://dummyimage.com/232x100.png/5fa2dd/ffffff",
     "price": 4665,
     "stock": 98,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 72,
@@ -645,7 +645,7 @@
     "image": "http://dummyimage.com/172x100.png/dddddd/000000",
     "price": 9868,
     "stock": 49,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 73,
@@ -654,7 +654,7 @@
     "image": "http://dummyimage.com/233x100.png/dddddd/000000",
     "price": 7312,
     "stock": 99,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 74,
@@ -663,7 +663,7 @@
     "image": "http://dummyimage.com/205x100.png/5fa2dd/ffffff",
     "price": 11833,
     "stock": 70,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 75,
@@ -672,7 +672,7 @@
     "image": "http://dummyimage.com/174x100.png/dddddd/000000",
     "price": 8393,
     "stock": 76,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 76,
@@ -681,7 +681,7 @@
     "image": "http://dummyimage.com/218x100.png/dddddd/000000",
     "price": 7605,
     "stock": 98,
-    "category": "verduleria"
+    "category": "celulares"
   },
   {
     "id": 77,
@@ -690,7 +690,7 @@
     "image": "http://dummyimage.com/130x100.png/5fa2dd/ffffff",
     "price": 8918,
     "stock": 12,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 78,
@@ -699,7 +699,7 @@
     "image": "http://dummyimage.com/204x100.png/cc0000/ffffff",
     "price": 14617,
     "stock": 11,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 79,
@@ -708,7 +708,7 @@
     "image": "http://dummyimage.com/216x100.png/ff4444/ffffff",
     "price": 6132,
     "stock": 75,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 80,
@@ -717,7 +717,7 @@
     "image": "http://dummyimage.com/218x100.png/cc0000/ffffff",
     "price": 10483,
     "stock": 99,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 81,
@@ -726,7 +726,7 @@
     "image": "http://dummyimage.com/174x100.png/dddddd/000000",
     "price": 10832,
     "stock": 23,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 82,
@@ -735,7 +735,7 @@
     "image": "http://dummyimage.com/217x100.png/5fa2dd/ffffff",
     "price": 6845,
     "stock": 8,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 83,
@@ -744,7 +744,7 @@
     "image": "http://dummyimage.com/154x100.png/cc0000/ffffff",
     "price": 17971,
     "stock": 87,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 84,
@@ -753,7 +753,7 @@
     "image": "http://dummyimage.com/180x100.png/cc0000/ffffff",
     "price": 13498,
     "stock": 36,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 85,
@@ -762,7 +762,7 @@
     "image": "http://dummyimage.com/171x100.png/dddddd/000000",
     "price": 2951,
     "stock": 16,
-    "category": "verduleria"
+    "category": "celulares"
   },
   {
     "id": 86,
@@ -771,7 +771,7 @@
     "image": "http://dummyimage.com/149x100.png/5fa2dd/ffffff",
     "price": 18751,
     "stock": 14,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 87,
@@ -780,7 +780,7 @@
     "image": "http://dummyimage.com/183x100.png/cc0000/ffffff",
     "price": 19881,
     "stock": 37,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 88,
@@ -789,7 +789,7 @@
     "image": "http://dummyimage.com/234x100.png/dddddd/000000",
     "price": 420,
     "stock": 89,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 89,
@@ -798,7 +798,7 @@
     "image": "http://dummyimage.com/200x100.png/dddddd/000000",
     "price": 12065,
     "stock": 63,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 90,
@@ -807,7 +807,7 @@
     "image": "http://dummyimage.com/106x100.png/dddddd/000000",
     "price": 16861,
     "stock": 3,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 91,
@@ -816,7 +816,7 @@
     "image": "http://dummyimage.com/175x100.png/ff4444/ffffff",
     "price": 5742,
     "stock": 100,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 92,
@@ -825,7 +825,7 @@
     "image": "http://dummyimage.com/121x100.png/5fa2dd/ffffff",
     "price": 9100,
     "stock": 42,
-    "category": "panaderia"
+    "category": "videojuegos"
   },
   {
     "id": 93,
@@ -834,7 +834,7 @@
     "image": "http://dummyimage.com/241x100.png/5fa2dd/ffffff",
     "price": 10644,
     "stock": 52,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 94,
@@ -843,7 +843,7 @@
     "image": "http://dummyimage.com/229x100.png/ff4444/ffffff",
     "price": 12541,
     "stock": 68,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 95,
@@ -852,7 +852,7 @@
     "image": "http://dummyimage.com/165x100.png/cc0000/ffffff",
     "price": 4384,
     "stock": 63,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 96,
@@ -861,7 +861,7 @@
     "image": "http://dummyimage.com/109x100.png/ff4444/ffffff",
     "price": 7457,
     "stock": 4,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 97,
@@ -870,7 +870,7 @@
     "image": "http://dummyimage.com/144x100.png/5fa2dd/ffffff",
     "price": 6735,
     "stock": 16,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 98,
@@ -879,7 +879,7 @@
     "image": "http://dummyimage.com/189x100.png/ff4444/ffffff",
     "price": 2682,
     "stock": 55,
-    "category": "carniceria"
+    "category": "electrodomesticos"
   },
   {
     "id": 99,
@@ -888,7 +888,7 @@
     "image": "http://dummyimage.com/204x100.png/5fa2dd/ffffff",
     "price": 15298,
     "stock": 75,
-    "category": "perfumeria"
+    "category": "celulares"
   },
   {
     "id": 100,
@@ -897,6 +897,6 @@
     "image": "http://dummyimage.com/202x100.png/dddddd/000000",
     "price": 6451,
     "stock": 60,
-    "category": "perfumeria"
+    "category": "celulares"
   }
 ]
