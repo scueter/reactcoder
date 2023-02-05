@@ -1,7 +1,6 @@
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import ItemCount from "../ItemCount/ItemCount";
 
 const Item = ({ prod }) => {
   return (
@@ -23,8 +22,6 @@ const Item = ({ prod }) => {
               }).format(prod.price)}
             </b>
           </Card.Text>
-          <ItemCount stock={Number(prod.stock)} />
-          <Button variant="primary">Añadir al carrito</Button>
         </Card.Body>
       </Card>
     </div>

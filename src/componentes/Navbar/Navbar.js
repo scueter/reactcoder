@@ -5,7 +5,9 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { LinkContainer } from "react-router-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
+import { useLoginContext } from "../../context/LoginContext";
 
 
 
@@ -13,26 +15,20 @@ export const Barnav = ({
   mode,
   variant,
   brand,
-  cart,
-  cartCount
+  cart
 }) => {
 
   const buscar = useNavigate()
 
+  const {user, logout} = useLoginContext()
+    
   const busqueda = () => {
     const input = document.getElementById("productName").value
     buscar(`/search/${input}`)
     //navigate(-1) vuelve hacia atras un paso
-    console.log(input);
   }
 
-  const logo = useNavigate()
-
-  const clickLogo = () => {
-    logo("/")
-  }
-
-  
+  //console.log(document.getElementById("switchLight").value === 'on' ? 'dark' : 'light');
   
   return (
    
@@ -40,13 +36,15 @@ export const Barnav = ({
       {["md"].map((expand) => (
         <Navbar
           key={expand}
-          bg={mode}
+          bg={mode} //{`${document.getElementById("switchLight").value === 'on' ? 'dark' : 'light'}`}
           expand={expand}
-          variant={variant}
+          variant={mode} //{`${document.getElementById("switchLight").value === 'on' ? 'dark' : 'light'}`}
           className="mb-3"
         >
           <Container fluid>
-            <Navbar.Brand onClick={clickLogo}>{brand}</Navbar.Brand>
+          <LinkContainer to="/" style={{ cursor: 'pointer' }}>
+            <Navbar.Brand>{brand}</Navbar.Brand>
+            </LinkContainer>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -60,21 +58,39 @@ export const Barnav = ({
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-center flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">
-                  <Link to="/">Inicio</Link>                  
+                  <Nav.Link as={Link} to="/">
+                  Inicio                  
                   </Nav.Link>
                   <NavDropdown title="Categorias" id="navbarScrollingDropdown">
-                    <NavDropdown.Item href="#action3">
-                      <Link to="/categorias/videojuegos">Videojuegos</Link>
+                    <NavDropdown.Item as={Link} to="/categorias/videojuegos">
+                      Videojuegos
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      <Link to="/categorias/celulares">Celulares</Link>
+                    <NavDropdown.Item as={Link} to="/categorias/celulares">
+                      Celulares
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action5">
-                      <Link to="/categorias/electrodomesticos">Electrodomesticos</Link>
+                    <NavDropdown.Item as={Link} to="/categorias/electrodomesticos">
+                      Electrodomesticos
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                  <NavDropdown title={`Bienvenido ${user.email}`}  id="navbarScrollingDropdown">
+                  Bienvenido
+                    <NavDropdown.Item as={Link} to="/">
+                      Ajustes de usuario
+                    </NavDropdown.Item>
+                    <NavDropdown.Item bg="dark" as={Link} onClick={logout}>
+                      Cerrar sesion
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
+                <Form>
+      <Form.Check 
+        type="switch"
+        id="switchLight"
+        className="container"
+      />
+
+
+    </Form>
                 <Form className="d-flex">
                   <Form.Control
                     type="search"
@@ -89,9 +105,8 @@ export const Barnav = ({
                 </Form>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
-            <Navbar.Brand className="p-2" href="#">
+            <Navbar.Brand className="p-2">
               {cart}
-              {cartCount}
             </Navbar.Brand>
           </Container>
         </Navbar>
