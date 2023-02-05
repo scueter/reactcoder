@@ -3,7 +3,7 @@ import { Button, Form } from "react-bootstrap"
 import { Navigate } from "react-router-dom";
 import { useCartContext } from "../../context/CartContext";
 import { db } from "../../firebase/config";
-import { collection, addDoc, doc, updateDoc, getDoc} from "firebase/firestore";
+import { collection, writeBatch,where, documentId, getDocs, query, addDoc, doc, updateDoc, getDoc} from "firebase/firestore";
 import { Link } from "react-router-dom";
 
 
@@ -19,14 +19,14 @@ const Checkout = () => {
         email: ""
       });
 
-      const handleInputChange = (e) => {
+      const handleInputChange =  (e) => {
         setValues({
           ...values,
           [e.target.name]: e.target.value,
         });
       };
     
-      const handleSubmit = (e) => {
+      const handleSubmit = async (e) => {
         e.preventDefault();
         if (values.nombre.length < 2) {
             alert("Nombre Invalido")
@@ -45,28 +45,50 @@ const Checkout = () => {
             total: totalCart()
         }
 
+        const batch = writeBatch(db)
         const ordersRef = collection(db, "orders")
         const productosRef = collection(db, "productos")
 
-        cart.forEach(prod => {
-          const docRef = doc(productosRef, prod.id)
-          getDoc(docRef)
-            .then((doc) => {
-              if (doc.data().stock - prod.cantidad >= 0) {
-                updateDoc(docRef, { stock: doc.data().stock - prod.cantidad })
+        const outOfStock = []
+
+        const itemsRef = query(productosRef, where( documentId(), 'in', cart.map(prod => prod.id)))
+
+          const productos = await getDocs(itemsRef)
+
+          productos.docs.forEach(doc => {
+            const item = cart.find(item => item.id === doc.id )
+
+            if (doc.data().stock >= item.cantidad) {
+               batch.update(doc.ref, {
+                  stock: doc.data().stock - item.cantidad 
+               }) 
+            } else {
+               outOfStock.push(item)
+            }
+          })
+
+
+            if (outOfStock === 0) {
+              batch.commit()
+                .then(() => {
+                  addDoc(ordersRef, orden)
+                  .then((doc) => {
+                    setOrderId(doc.id)
+                    emptyCart()
+                  })
+                  .catch((err) => console.log(err))
+                })
               } else {
                 alert("No hay stock disponible")
               }
 
-            })
-        })
 
-        addDoc(ordersRef, orden)
-          .then((doc) => {
-            setOrderId(doc.id)
-            emptyCart()
-          })
-          .catch((err) => console.log(err))
+         addDoc(ordersRef, orden)
+           .then((doc) => {
+             setOrderId(doc.id)
+             emptyCart()
+           })
+           .catch((err) => console.log(err))
 
       };
 
